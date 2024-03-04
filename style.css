@@ -26,11 +26,11 @@ body {
 }
 
 #container{
-    display: block;
+    display: flex;
     background-color: blanchedalmond;
     padding: auto;
     height: auto;
-    width: 40vw;
+    width: 70vw;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
@@ -40,6 +40,9 @@ body {
 
 .links{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 12vh;
     width: 50vw;
     
